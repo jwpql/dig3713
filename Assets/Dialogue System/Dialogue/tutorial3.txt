@@ -1,0 +1,5 @@
+[NAME=Songyun][SPEAKERSPRITE=Songyun] Here's your tea, ma'am!
+[NAME=Boss][SPEAKERSPRITE=Boss] Ok.
+[NAME=Boss][SPEAKERSPRITE=Boss] ...You can stop hovering. Customers will usually pay and leave on their own.
+[NAME=Songyun][SPEAKERSPRITE=Songyun] Okay! So, did I pass?
+[NAME=Boss][SPEAKERSPRITE=Boss] Yes. This isn't exactly difficult.

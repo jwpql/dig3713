@@ -1,0 +1,2 @@
+[NAME=Songyun][SPEAKERSPRITE=Songyun_smile] I like your hat.
+[NAME=Zihua][SPEAKERSPRITE=Zihua] Fuck offff
