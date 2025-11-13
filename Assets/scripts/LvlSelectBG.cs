@@ -1,5 +1,7 @@
 using UnityEngine;
 
+//changes level select background after you complete a level
+
 public class LvlSelectBG : MonoBehaviour
 {
     public Sprite[] sprites;

@@ -1,6 +1,8 @@
 using UnityEngine;
 using System;
 
+// if [targetCount] groups have been served, activate the button that lets you end the level and record last level completed
+
 namespace DigitalWorlds.StarterPackage2D
 {
     public class CheckGameOver : MonoBehaviour

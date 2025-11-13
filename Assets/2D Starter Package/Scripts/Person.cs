@@ -1,6 +1,10 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
+/*
+ * Manages individual customers (orders, dialogue)
+ */
+
 namespace DigitalWorlds.StarterPackage2D { 
 public class Person : MonoBehaviour
 {

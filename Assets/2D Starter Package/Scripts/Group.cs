@@ -1,9 +1,14 @@
-using DigitalWorlds.StarterPackage2D;
-using UnityEngine;
-using TMPro;
+/*
+ * Managers groups of customers (max group size = 4)
+ */
+
 using DigitalWorlds.Dialogue;
+using DigitalWorlds.StarterPackage2D;
 using System;
+using TMPro;
 using UnityEditor;
+using UnityEngine;
+using UnityEngine.Audio;
 
 namespace DigitalWorlds.StarterPackage2D
 {

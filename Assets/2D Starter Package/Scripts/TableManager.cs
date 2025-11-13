@@ -1,5 +1,8 @@
 using UnityEngine;
 using TMPro;
+
+//tracks table occupancy, seats groups
+
 namespace DigitalWorlds.StarterPackage2D
 {
     public class TableManager : MonoBehaviour
