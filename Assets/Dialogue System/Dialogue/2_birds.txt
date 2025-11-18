@@ -1,0 +1,1 @@
+[NAME=Songyun][SPEAKERSPRITE=Songyun_smile](Songbirds that the boss keeps around. Even when you take them on walks, they have to stay inside their cage.)

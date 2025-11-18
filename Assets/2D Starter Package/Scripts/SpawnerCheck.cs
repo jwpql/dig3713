@@ -18,6 +18,11 @@ namespace DigitalWorlds.StarterPackage2D
         //player character (to enable/disable movement)
         public PlayerMovementTopDown player = null;
 
+        //audio
+        public AudioSource audioSource;
+        public AudioClip correctSound;
+        public AudioClip wrongSound;
+
         void Start()
         {
             player = FindAnyObjectByType<PlayerMovementTopDown>();
@@ -52,6 +57,18 @@ namespace DigitalWorlds.StarterPackage2D
             player.EnableMovement(true);
             minigame.SetActive(false);  
             selectNum.SetActive(false);
+        }
+
+        public void playSound(bool correct)
+        {
+            if (correct)
+            {
+                audioSource.PlayOneShot(correctSound);
+            }
+            else
+            {
+                audioSource.PlayOneShot(wrongSound);
+            }
         }
     }
 }

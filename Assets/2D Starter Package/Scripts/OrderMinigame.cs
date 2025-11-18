@@ -27,7 +27,7 @@ namespace DigitalWorlds.StarterPackage2D {
             numKeysPressed = 0;
             for (int i = 0; i < 4; i++)
             {
-                int rand = Random.Range(0, 3);
+                int rand = Random.Range(0, 4);
                 keystopress[i] = keys[rand];
                 itemTexts[i].text = text[rand];
                 itemTexts[i].color = Color.black;
@@ -43,10 +43,12 @@ namespace DigitalWorlds.StarterPackage2D {
                 {
                     if (Input.GetKeyDown(keystopress[0]))
                     {
+                        spawnerCheck.playSound(true);
                         itemTexts[0].color = Color.red;
                     }
                     else
                     {
+                        spawnerCheck.playSound(false);
                         spawnerCheck.exit();
                     }
                 }
@@ -54,10 +56,12 @@ namespace DigitalWorlds.StarterPackage2D {
                 {
                     if (Input.GetKeyDown(keystopress[1]))
                     {
+                        spawnerCheck.playSound(true);
                         itemTexts[1].color = Color.red;
                     }
                     else
                     {
+                        spawnerCheck.playSound(false);
                         spawnerCheck.exit();
                     }
                 }
@@ -65,10 +69,12 @@ namespace DigitalWorlds.StarterPackage2D {
                 {
                     if (Input.GetKeyDown(keystopress[2]))
                     {
+                        spawnerCheck.playSound(true);
                         itemTexts[2].color = Color.red;
                     }
                     else
                     {
+                        spawnerCheck.playSound(false);
                         spawnerCheck.exit();
                     }
                 }
@@ -76,10 +82,15 @@ namespace DigitalWorlds.StarterPackage2D {
                 {
                     if (Input.GetKeyDown(keystopress[3]))
                     {
+                        spawnerCheck.playSound(true);
                         Debug.Log("Correct Key 4");
                         spawnerCheck.spawn();
                     }
-                    spawnerCheck.exit();
+                    else
+                    {
+                        spawnerCheck.playSound(false);
+                    }
+                        spawnerCheck.exit();
                 }
             }
         }

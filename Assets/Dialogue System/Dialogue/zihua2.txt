@@ -1,4 +1,0 @@
-[NAME=Zihua][SPEAKERSPRITE=Zihua] So you can make good tea.
-[NAME=Songyun][SPEAKERSPRITE=Songyun_smileeyesclosed] Oh, I don't make it.
-[NAME=Zihua][SPEAKERSPRITE=Zihua] Sorry. I meant, at least you can serve tea without purposefully adding something horrible to it.
-[NAME=Songyun][SPEAKERSPRITE=Songyun_smileeyesclosed] Water under the bridge~

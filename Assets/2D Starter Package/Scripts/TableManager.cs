@@ -10,11 +10,17 @@ namespace DigitalWorlds.StarterPackage2D
         public bool[] isOccupied;
         public Group waiting = null;
         public TMP_Text textArea = null;
+        public AudioSource audioSource;
+        public AudioClip enterSound;
+        public AudioClip exitSound;
+        public AudioClip interactSound;
+        public TMP_Text moneyAdded = null;
 
         private void Start()
         {
             isOccupied = new bool[4] {false, false, false, false};
             textArea.canvasRenderer.SetAlpha(0);
+            moneyAdded.canvasRenderer.SetAlpha(0);
         }
         public void seatAt(int table)
         {
@@ -36,6 +42,7 @@ namespace DigitalWorlds.StarterPackage2D
             {
                 isOccupied[table - 1] = true;
                 waiting = null;
+                playInteractSound();
             }
             
         }
@@ -66,6 +73,29 @@ namespace DigitalWorlds.StarterPackage2D
         public void freeTable(int table)
         {
             isOccupied[table-1] = false;
+        }
+
+        public void playEnterSound()
+        {
+                audioSource.PlayOneShot(enterSound);
+        }
+
+        public void playExitSound()
+        {
+                audioSource.PlayOneShot(exitSound);
+        }   
+
+        public void playInteractSound()
+        {
+                audioSource.PlayOneShot(interactSound); 
+        }   
+
+        public void addMoney(int i)
+        {
+            if(moneyAdded == null) return;
+            moneyAdded.text = "+" + i.ToString();
+            moneyAdded.canvasRenderer.SetAlpha(1f);
+            moneyAdded.CrossFadeAlpha(0, 4.0f, false);
         }
     }
 }

@@ -20,7 +20,7 @@ namespace DigitalWorlds.StarterPackage2D
         public Person four = null;
         public TableManager tableManager = null;
         int tableNum = 0; 
-        
+
         public GameObject exclamationBubble;
         public BoxCollider2D boxCollider;
         public float secUntilEnter = 0; // set to -1 if you want something else to trigger their entrance
@@ -106,6 +106,7 @@ namespace DigitalWorlds.StarterPackage2D
 
         void enter()
         {
+            tableManager.playEnterSound();
             timer = 300;
             exclamationBubble.SetActive(true); 
             if (one != null)
@@ -239,6 +240,7 @@ namespace DigitalWorlds.StarterPackage2D
 
             if(tableManager.waiting == null) //no other group is waiting for a seat
             {
+                tableManager.playInteractSound();
                 if (tableManager.hasValidTable(size))
                 {
                     tableManager.waiting = this;
@@ -257,6 +259,7 @@ namespace DigitalWorlds.StarterPackage2D
 
         public void decrementOrder()
         {
+            tableManager.playInteractSound();
             numOrders--;
         }
 
@@ -288,13 +291,15 @@ namespace DigitalWorlds.StarterPackage2D
 
         void leave()
         {
+            tableManager.playExitSound();
             //calculate money based on time
             int earnings = 10 * size;
             earnings += (int)(timer/80)*10;
             CollectableManager.Instance.AddCollectable("Money", earnings);
+            tableManager.addMoney(earnings);
 
             //make other groups enter
-            if(after.Length > 0)
+            if (after.Length > 0)
             {
                 foreach(GameObject g in after)
                 {

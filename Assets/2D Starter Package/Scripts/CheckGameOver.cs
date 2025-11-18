@@ -8,7 +8,6 @@ namespace DigitalWorlds.StarterPackage2D
     public class CheckGameOver : MonoBehaviour
     {
         public GameObject gameOverBtn;
-        public string collectableName = "Guests";
         public int targetCount = 0;
 
         void Start()
@@ -25,7 +24,7 @@ namespace DigitalWorlds.StarterPackage2D
                 return;
             }
 
-            int c = CollectableManager.Instance.FindCollectable(collectableName).count;
+            int c = CollectableManager.Instance.FindCollectable("GuestCount").count;
             if (c >= targetCount)
             {
                 gameOverBtn.SetActive(true);
@@ -35,7 +34,11 @@ namespace DigitalWorlds.StarterPackage2D
         public void setLastLevel(int i)
         {
             //keeps track of last level completed starting from tutorial (1)
+            int money = CollectableManager.Instance.FindCollectable("Money").count;
+            int guest = CollectableManager.Instance.FindCollectable("GuestCount").count;
             PlayerPrefs.SetInt("lastLevel", i);
+            PlayerPrefs.SetInt("profit", money);
+            PlayerPrefs.SetInt("guests", guest);
         }
     }
 }

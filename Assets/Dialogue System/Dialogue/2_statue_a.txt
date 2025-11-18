@@ -1,0 +1,1 @@
+[NAME=Songyun][SPEAKERSPRITE=Songyun_neutral](A statue of An Tai, one of Taiyue's patron gods. He looks joyful and unaware of worldly woes.)

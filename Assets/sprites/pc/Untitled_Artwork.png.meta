@@ -368,8 +368,8 @@ TextureImporter:
       name: Untitled_Artwork_10
       rect:
         serializedVersion: 2
-        x: 256
-        y: 128
+        x: 255
+        y: 127
         width: 128
         height: 128
       alignment: 0
@@ -390,7 +390,7 @@ TextureImporter:
       name: Untitled_Artwork_11
       rect:
         serializedVersion: 2
-        x: 384
+        x: 383
         y: 128
         width: 128
         height: 128

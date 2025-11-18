@@ -1,0 +1,1 @@
+[NAME=Songyun][SPEAKERSPRITE=Songyun_neutral](A statue of Yue Yuan, one of Taiyue's patron gods. They look serene and unbothered by worldly matters.)

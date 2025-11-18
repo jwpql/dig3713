@@ -96,6 +96,7 @@ public class Person : MonoBehaviour
             {
                 return; //does nothing if customer wants nothing
             }
+            group.tableManager.playInteractSound();
             if (tookOrder == true)
             {
                 if (orderID == 1)

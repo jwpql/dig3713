@@ -1,0 +1,2 @@
+[NAME=Suohao][SPEAKERSPRITE=Suohao_grin]So, how's customer service treating you?
+[NAME=Songyun][SPEAKERSPRITE=Songyun]Placeholder dialogue idkkk

@@ -1,4 +1,0 @@
-[NAME=Xinhe][SPEAKERSPRITE=Xinhe] Good morning, Songyun. Are you on break today? I haven't heard you warm up yet.
-[NAME=Songyun][SPEAKERSPRITE=Songyun_smileeyesclosed] Actually, I can't perform with you today... Boss put me on waitress duty.
-[NAME=Xinhe][SPEAKERSPRITE=Xinhe] Oh, I'm sorry... I'm sure it'll blow over quickly.
-[NAME=Songyun][SPEAKERSPRITE=Songyun_whew] God, I hope so... This is embarassing.

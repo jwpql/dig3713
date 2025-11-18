@@ -1,6 +1,0 @@
-[NAME=Songyun][SPEAKERSPRITE=Songyun_neutral] Table for one?
-[NAME=Boss][SPEAKERSPRITE=Boss] Where's your usual insufferable cheer? The customers won't like this attitude, you know.
-[NAME=Songyun][SPEAKERSPRITE=Songyun_annoyed] ...
-[NAME=Songyun][SPEAKERSPRITE=Songyun] Table for one?
-[NAME=Boss][SPEAKERSPRITE=Boss] Yes, please.
-[NAME=Boss][SPEAKERSPRITE=Boss] (...How the hell does she do that.)

@@ -1,0 +1,6 @@
+[NAME=Boss][SPEAKERSPRITE=Boss] Good morning, Songyun. Ready to open for today?
+[NAME=Songyun][SPEAKERSPRITE=Songyun_annoyed] Yeah.
+[NAME=Boss][SPEAKERSPRITE=Boss] Wipe that look off your face. You did this to yourself, you know.
+[NAME=Boss][SPEAKERSPRITE=Boss_frown]...now that I think about it, do you even know how to serve customers?
+[NAME=Songyun][SPEAKERSPRITE=Songyun_annoyed] Yes? I watch people do it every day?
+[NAME=Boss][SPEAKERSPRITE=Boss] I'll be the judge of that. There's still some time before opening. Show me.

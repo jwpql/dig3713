@@ -1,5 +1,0 @@
-[NAME=???][SPEAKERSPRITE=???] I thought you like this place?
-[NAME=Zihua][SPEAKERSPRITE=Zihua_talk] No- I mean yes, but not when she-
-[NAME=Songyun][SPEAKERSPRITE=Songyun_smile]Hello~ table for two?
-[NAME=???][SPEAKERSPRITE=???] Oh.. um, yes.
-[NAME=Songyun][SPEAKERSPRITE=Songyun_smile]Got it! Just a moment~

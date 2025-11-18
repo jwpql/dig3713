@@ -49,6 +49,10 @@ MonoBehaviour:
     sprite: {fileID: 8390981710283063426, guid: 7b271b5349c5bd9458fe55645643e7f4, type: 3}
     nameColor: {r: 0.50980395, g: 0.28235295, b: 0.12156863, a: 1}
     textColor: {r: 0.24705882, g: 0.20392157, b: 0.16470589, a: 1}
+  - name: Songyun_contemplate
+    sprite: {fileID: -6018206359727051286, guid: 58283cd9dae1fd048a513236b6089851, type: 3}
+    nameColor: {r: 0.50980395, g: 0.28235295, b: 0.12156863, a: 1}
+    textColor: {r: 0.24705882, g: 0.20392157, b: 0.16470589, a: 1}
   - name: Zihua
     sprite: {fileID: 4448103235855813684, guid: 1f339e13583303d4c9524daf02b7bfed, type: 3}
     nameColor: {r: 0.50980395, g: 0.28235295, b: 0.12156863, a: 1}
@@ -65,15 +69,71 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: c246bc41865392741a8849d0723aa809, type: 3}
     nameColor: {r: 0.50980395, g: 0.28235295, b: 0.12156863, a: 1}
     textColor: {r: 0.24705882, g: 0.20392157, b: 0.16470589, a: 1}
+  - name: Boss
+    sprite: {fileID: -2424553518018739129, guid: c72414f1aedb8c1499d0a24fe3b38b7f, type: 3}
+    nameColor: {r: 0.50980395, g: 0.28235295, b: 0.12156863, a: 1}
+    textColor: {r: 0.24705882, g: 0.20392157, b: 0.16470589, a: 1}
+  - name: Boss_frown
+    sprite: {fileID: -3588229512158965765, guid: c72414f1aedb8c1499d0a24fe3b38b7f, type: 3}
+    nameColor: {r: 0.50980395, g: 0.28235295, b: 0.12156863, a: 1}
+    textColor: {r: 0.24705882, g: 0.20392157, b: 0.16470589, a: 1}
   - name: Xinhe
-    sprite: {fileID: -6674868978544099146, guid: ff26b7f82683eb142910c4b23444dc52, type: 3}
+    sprite: {fileID: -6678710946579412059, guid: 31f375364aa06df4690ca4ac52f4df87, type: 3}
+    nameColor: {r: 0.50980395, g: 0.28235295, b: 0.12156863, a: 1}
+    textColor: {r: 0.24705882, g: 0.20392157, b: 0.16470589, a: 1}
+  - name: Xinhe_smile
+    sprite: {fileID: -6087078098401418134, guid: 31f375364aa06df4690ca4ac52f4df87, type: 3}
+    nameColor: {r: 0.50980395, g: 0.28235295, b: 0.12156863, a: 1}
+    textColor: {r: 0.24705882, g: 0.20392157, b: 0.16470589, a: 1}
+  - name: Xinhe_yay
+    sprite: {fileID: -5249156784491911142, guid: 31f375364aa06df4690ca4ac52f4df87, type: 3}
+    nameColor: {r: 0.50980395, g: 0.28235295, b: 0.12156863, a: 1}
+    textColor: {r: 0.24705882, g: 0.20392157, b: 0.16470589, a: 1}
+  - name: Xinhe_concern
+    sprite: {fileID: 2719402779461654567, guid: 31f375364aa06df4690ca4ac52f4df87, type: 3}
     nameColor: {r: 0.50980395, g: 0.28235295, b: 0.12156863, a: 1}
     textColor: {r: 0.24705882, g: 0.20392157, b: 0.16470589, a: 1}
   - name: Suohao
-    sprite: {fileID: -6674868978544099146, guid: ff26b7f82683eb142910c4b23444dc52, type: 3}
+    sprite: {fileID: 8847964268777547979, guid: 58283cd9dae1fd048a513236b6089851, type: 3}
     nameColor: {r: 0.50980395, g: 0.28235295, b: 0.12156863, a: 1}
     textColor: {r: 0.24705882, g: 0.20392157, b: 0.16470589, a: 1}
-  - name: Boss
-    sprite: {fileID: -6674868978544099146, guid: ff26b7f82683eb142910c4b23444dc52, type: 3}
+  - name: Suohao_grin
+    sprite: {fileID: 2849641333470131894, guid: 58283cd9dae1fd048a513236b6089851, type: 3}
+    nameColor: {r: 0.50980395, g: 0.28235295, b: 0.12156863, a: 1}
+    textColor: {r: 0.24705882, g: 0.20392157, b: 0.16470589, a: 1}
+  - name: Suohao_mad
+    sprite: {fileID: 6606494121350347713, guid: 58283cd9dae1fd048a513236b6089851, type: 3}
+    nameColor: {r: 0.50980395, g: 0.28235295, b: 0.12156863, a: 1}
+    textColor: {r: 0.24705882, g: 0.20392157, b: 0.16470589, a: 1}
+  - name: Suohao_talk
+    sprite: {fileID: 1421073044982364815, guid: 58283cd9dae1fd048a513236b6089851, type: 3}
+    nameColor: {r: 0.50980395, g: 0.28235295, b: 0.12156863, a: 1}
+    textColor: {r: 0.24705882, g: 0.20392157, b: 0.16470589, a: 1}
+  - name: Suohao_eyesclosed
+    sprite: {fileID: 6333470676199308852, guid: 58283cd9dae1fd048a513236b6089851, type: 3}
+    nameColor: {r: 0.50980395, g: 0.28235295, b: 0.12156863, a: 1}
+    textColor: {r: 0.24705882, g: 0.20392157, b: 0.16470589, a: 1}
+  - name: An Tai
+    sprite: {fileID: 8190408443283917143, guid: 740a02862a7e1c741bc74fa52419539b, type: 3}
+    nameColor: {r: 0.50980395, g: 0.28235295, b: 0.12156863, a: 1}
+    textColor: {r: 0.24705882, g: 0.20392157, b: 0.16470589, a: 1}
+  - name: An Tai_eyes open
+    sprite: {fileID: -3411663482875076296, guid: 740a02862a7e1c741bc74fa52419539b, type: 3}
+    nameColor: {r: 0.50980395, g: 0.28235295, b: 0.12156863, a: 1}
+    textColor: {r: 0.24705882, g: 0.20392157, b: 0.16470589, a: 1}
+  - name: An Tai_yay
+    sprite: {fileID: -3411663482875076296, guid: 740a02862a7e1c741bc74fa52419539b, type: 3}
+    nameColor: {r: 0.50980395, g: 0.28235295, b: 0.12156863, a: 1}
+    textColor: {r: 0.24705882, g: 0.20392157, b: 0.16470589, a: 1}
+  - name: Yue Yuan
+    sprite: {fileID: 2069359008631631136, guid: fcde253ba3f95db42ab6843841263097, type: 3}
+    nameColor: {r: 0.50980395, g: 0.28235295, b: 0.12156863, a: 1}
+    textColor: {r: 0.24705882, g: 0.20392157, b: 0.16470589, a: 1}
+  - name: Yue Yuan_smile
+    sprite: {fileID: 3067473509066488531, guid: fcde253ba3f95db42ab6843841263097, type: 3}
+    nameColor: {r: 0.50980395, g: 0.28235295, b: 0.12156863, a: 1}
+    textColor: {r: 0.24705882, g: 0.20392157, b: 0.16470589, a: 1}
+  - name: Yue Yuan_eyesopen
+    sprite: {fileID: -1109053501597198868, guid: fcde253ba3f95db42ab6843841263097, type: 3}
     nameColor: {r: 0.50980395, g: 0.28235295, b: 0.12156863, a: 1}
     textColor: {r: 0.24705882, g: 0.20392157, b: 0.16470589, a: 1}

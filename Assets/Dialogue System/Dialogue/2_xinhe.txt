@@ -1,0 +1,6 @@
+[NAME=Xinhe][SPEAKERSPRITE=Xinhe]So, how was your first day as a waitress?
+[NAME=Songyun][SPEAKERSPRITE=Songyun_smileeyesclosed]Eh, I've had worse. I had to work waaay more at my old job.
+[NAME=Xinhe][SPEAKERSPRITE=Xinhe]Oh? What were you doing?
+[NAME=Songyun][SPEAKERSPRITE=Songyun]Oh, you know. Just performing alone in rich people's hovels.
+[NAME=Xinhe][SPEAKERSPRITE=Xinhe_concern]Weren't your parents worried? 
+[NAME=Songyun][SPEAKERSPRITE=Songyun_smileeyesclosed]Nah, they were just glad I was out of their hair.
