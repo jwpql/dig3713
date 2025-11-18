@@ -152,7 +152,7 @@ namespace DigitalWorlds.StarterPackage2D
                 { 
                     two.transform.position = new Vector3((float)-4.58, (float)0.39);
                     two.sitR();
-           
+
                 }
                 return true;
             }
@@ -359,6 +359,7 @@ namespace DigitalWorlds.StarterPackage2D
             }
             Destroy(this.gameObject);
         }
+
     }
 }
 

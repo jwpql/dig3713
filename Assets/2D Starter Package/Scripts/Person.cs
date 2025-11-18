@@ -1,3 +1,4 @@
+using DigitalWorlds.Dialogue;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -12,20 +13,25 @@ public class Person : MonoBehaviour
         public SpriteRenderer spriteRenderer;
         public Group group;
         public GameObject foodBubble = null;
-        public BoxCollider2D boxCollider = null;
+        //public BoxCollider2D boxCollider = null;
+        ButtonEvents2D buttonEvent = null;
         public GameObject foodSprite = null;
         public GameObject talkBubble = null;
         public int orderID = 0;
         public bool tookOrder = false;
+        public Renderer renderer;
         //needed to hide food bubble at start
 
         void Start()
         {
-            if (boxCollider != null)
+            renderer = GetComponent<Renderer>();
+            renderer.sortingOrder = -(int)(GetComponent<Collider2D>().bounds.min.y * 1000);
+            buttonEvent = GetComponent<ButtonEvents2D>();
+            if (buttonEvent != null)
             {
-                boxCollider.enabled = false;
+                buttonEvent.enabled = false;
             }
-            if(foodBubble != null)
+            if (foodBubble != null)
             {
                 foodBubble.SetActive(false);
             }
@@ -38,15 +44,14 @@ public class Person : MonoBehaviour
         {
             spriteRenderer.flipX = true;
             spriteRenderer.sprite = sitSprite;
-
-            if(foodBubble != null)
+            if (foodBubble != null)
             {
                 foodBubble.transform.position = new Vector3(this.transform.position.x, this.transform.position.y + (float) 1.2);
                 foodBubble.SetActive(true);
             }
-            if (boxCollider != null)
+            if (buttonEvent != null)
             {
-                boxCollider.enabled = true;
+                buttonEvent.enabled = true;
             }
             if (foodSprite != null)
             {
@@ -66,15 +71,14 @@ public class Person : MonoBehaviour
         {
             spriteRenderer.flipX = false;
             spriteRenderer.sprite = sitSprite;
-
             if (foodBubble != null)
             {
                 foodBubble.transform.position = new Vector3(this.transform.position.x, this.transform.position.y + (float) 1.2);
                 foodBubble.SetActive(true);
             }
-            if (boxCollider != null)
+            if (buttonEvent != null)
             {
-                boxCollider.enabled = true;
+                buttonEvent.enabled = true;
             }
             if (foodSprite != null)
             {
@@ -104,7 +108,7 @@ public class Person : MonoBehaviour
                     if (CollectableManager.Instance.FindCollectable("Food1").count > 0)
                     {
                         foodSprite.SetActive(true);
-                        boxCollider.enabled = false;
+                        buttonEvent.enabled = false;
                         group.decrementOrder();
                         CollectableManager.Instance.AddCollectable("Order1", -1);
                         CollectableManager.Instance.AddCollectable("Food1", -1);
@@ -120,7 +124,7 @@ public class Person : MonoBehaviour
                     if (CollectableManager.Instance.FindCollectable("Food2").count > 0)
                     {
                         foodSprite.SetActive(true);
-                        boxCollider.enabled = false;
+                        buttonEvent.enabled = false;
                         group.decrementOrder();
                         CollectableManager.Instance.AddCollectable("Order2", -1);
                         CollectableManager.Instance.AddCollectable("Food2", -1);
@@ -136,7 +140,7 @@ public class Person : MonoBehaviour
                     if (CollectableManager.Instance.FindCollectable("Food3").count > 0)
                     {
                         foodSprite.SetActive(true);
-                        boxCollider.enabled = false;
+                        buttonEvent.enabled = false;
                         group.decrementOrder();
                         CollectableManager.Instance.AddCollectable("Order3", -1);
                         CollectableManager.Instance.AddCollectable("Food3", -1);
@@ -171,6 +175,12 @@ public class Person : MonoBehaviour
         void enableTalkBubble()
         {
             talkBubble.SetActive(true);
+        }
+
+        // ik i shouldnt call this every frame BUT IT DOESNT WORK OTHERWISE... AM I STUPID
+        private void LateUpdate()
+        {
+            renderer.sortingOrder = -(int)(GetComponent<Collider2D>().bounds.min.y * 1000);
         }
     }
 }
