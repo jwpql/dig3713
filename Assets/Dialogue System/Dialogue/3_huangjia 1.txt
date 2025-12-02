@@ -1,0 +1,3 @@
+[NAME=Songyun][SPEAKERSPRITE=Songyun_smileeyesclosed]Hey! Table for one again?
+[NAME=Songyun][SPEAKERSPRITE=Songyun_smileeyesclosed](Feels like I see this guy constantly...)
+[NAME=???][SPEAKERSPRITE=Huangjia]Y-you recognized me?! I mean, yes!!

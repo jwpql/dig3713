@@ -1,0 +1,7 @@
+[NAME=Songyun][SPEAKERSPRITE=Songyun_neutral]What if it all goes wrong? What if you take care of us, only to get nothing but greed and incompetence?
+[NAME=Yue Yuan][SPEAKERSPRITE=Yue Yuan]It will not happen. No species is singularly good or evil. The world does not work in such simple absolutes.
+[NAME=Songyun][SPEAKERSPRITE=Songyun_annoyed]That's easy for you to say. You're literally a god; everyone loves you. So tell me: what if that does happen? Will you leave us?
+[NAME=Yue Yuan][SPEAKERSPRITE=Yue Yuan]I would accept it. It was my choice to take on such a project, so I will see it to the end.
+[NAME=Yue Yuan][SPEAKERSPRITE=Yue Yuan_eyesopen]So do not worry about what other gods asked of you in the past. Improve yourself for your own sake. If you wish to leave, then go.
+[NAME=Songyun][SPEAKERSPRITE=Songyun_contemplate]I see...? Thanks for entertaining my odd question, Yue Yuan.
+[NAME=Yue Yuan][SPEAKERSPRITE=Yue Yuan_smile]Of course.

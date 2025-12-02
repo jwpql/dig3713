@@ -1,0 +1,1 @@
+[NAME=Songyun][SPEAKERSPRITE=Songyun_neutral](A statue of Yue Yuan. You want to believe they won't abandon their city, but you know it's only a matter of time.)

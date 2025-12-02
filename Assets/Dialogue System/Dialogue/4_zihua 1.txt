@@ -1,0 +1,2 @@
+[NAME=Songyun][SPEAKERSPRITE=Songyun_contemplate]...Table for one?
+[NAME=Zihua][SPEAKERSPRITE=Zihua_eyesclosed] Yes.

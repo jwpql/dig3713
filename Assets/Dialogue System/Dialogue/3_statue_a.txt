@@ -1,0 +1,1 @@
+[NAME=Songyun][SPEAKERSPRITE=Songyun_neutral](A statue of An Tai. He looks like he could flit off the moment he got bored.)

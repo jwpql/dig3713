@@ -1,0 +1,8 @@
+[NAME=Suohao][SPEAKERSPRITE=Suohao]Ugh, everyone was talking about how those two showed up yesterday. Like, who cares?
+[NAME=Songyun][SPEAKERSPRITE=Songyun]Considering our neighbors... divine protection is pretty useful, you know.
+[NAME=Suohao][SPEAKERSPRITE=Suohao_grin]I know, dumbass! But I hate how we have to suck up to gods just to not die.
+[NAME=Songyun][SPEAKERSPRITE=Songyun_smile]I know, right? It never works out long term.
+[NAME=Suohao][SPEAKERSPRITE=Suohao_mad]Yeah! Pretending to care about somethone you don't never works out.
+[NAME=Songyun][SPEAKERSPRITE=Songyun_surprise]I... agree?
+[NAME=Songyun][SPEAKERSPRITE=Songyun_contemplate]It's a shame both humans and gods are so bad at pretending.
+[NAME=Suohao][SPEAKERSPRITE=Suohao_mad]You think we shuold be better at lying?

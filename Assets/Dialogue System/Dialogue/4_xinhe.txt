@@ -1,0 +1,5 @@
+[NAME=Songyun][SPEAKERSPRITE=Songyun]That boy who came by yesterday said he was from the Zhong family. Said his name was Huangjia. Did you recognize him?
+[NAME=Xinhe][SPEAKERSPRITE=Xinhe]Sounds familiar... I believe he's the second son of Zhong Nan. I lived with a different branch of the clan, so I rarely saw him. His relatives only talked about his older brother whenever they visited.
+[NAME=Songyun][SPEAKERSPRITE=Songyun]I see...
+[NAME=Xinhe][SPEAKERSPRITE=Xinhe]Oh, right! Boss said she'll let you perform again after after today.
+[NAME=Songyun][SPEAKERSPRITE=Songyun]Great! Can't wait to sing with you again~

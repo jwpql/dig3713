@@ -1,1 +1,6 @@
-[NAME=???][SPEAKERSPRITE=An Tai_yay]PLACEHOLDER TEXT
+[NAME=An Tai][SPEAKERSPRITE=An Tai_yay]Wow, the craftsmanship on the cups is so nice! Looks like Yanghai ware. It'd be so cool if Taiyue had a flourishing ceramics business.
+[NAME=Yue Yuan][SPEAKERSPRITE=Yue Yuan]How do you suppose we should inspire the will to innovate and create among people? Inflict hardships upon them?
+[NAME=An Tai][SPEAKERSPRITE=An Tai_eyes open]Not too much. The Ancients brought countless disasters on themselves, and now they are no more. We should seek to uplift humans.
+[NAME=Yue Yuan][SPEAKERSPRITE=Yue Yuan]I agree. I do not wish to cause any more suffering.
+[NAME=An Tai][SPEAKERSPRITE=An Tai_yay]Oh, hey! Thanks for the tea!
+[NAME=Songyun][SPEAKERSPRITE=Songyun_scared]?????

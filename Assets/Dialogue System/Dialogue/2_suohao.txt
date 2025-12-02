@@ -1,2 +1,4 @@
-[NAME=Suohao][SPEAKERSPRITE=Suohao_grin]So, how's customer service treating you?
-[NAME=Songyun][SPEAKERSPRITE=Songyun]Placeholder dialogue idkkk
+[NAME=Suohao][SPEAKERSPRITE=Suohao_talk]Wasn't that Zihua who came in yesterday? For gods' sake, leave her alone!
+[NAME=Songyun][SPEAKERSPRITE=Songyun_smile]Hey, she came here of her own free will.
+[NAME=Suohao][SPEAKERSPRITE=Suohao_mad]You should've just- I don't know. But I've heard enough of your arguments to know that you're the problem.
+[NAME=Songyun][SPEAKERSPRITE=Songyun_smile]Hah~ Whatever you think, Suohao.

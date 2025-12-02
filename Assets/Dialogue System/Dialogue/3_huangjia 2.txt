@@ -1,0 +1,7 @@
+[NAME=Songyun][SPEAKERSPRITE=Songyun]Come here often?
+[NAME=???][SPEAKERSPRITE=Huangjia_o]Y-yeah, you could say that.
+[NAME=Songyun][SPEAKERSPRITE=Songyun_smileeyesclosed]Aw, thanks! I'm Songyun, by the way.
+[NAME=Huangjia][SPEAKERSPRITE=Huangjia_smileeyesclosed]Oh, I forgot to introduce myself! Forigve me, my lady! I am Huangjia, of the Zhong family! A humble scholar who wanted to hear you sing!
+[NAME=Songyun][SPEAKERSPRITE=Songyun_neutral]Zhong family? From the north? Huh.
+[NAME=Huangjia][SPEAKERSPRITE=Huangjia]I know some people might disagree with our god's actions, our hands are tied, too! But I promise, I have nothing but the utmost repsect for ordinary people like you.
+[NAME=Songyun][SPEAKERSPRITE=Songyun_smileeyesclosed]Oh, really~. That's nice to hear. Let's chat more, sometime~.

@@ -1,2 +1,2 @@
-[NAME=Suohao][SPEAKERSPRITE=Suohao_talk] Heh, is miss prissy is on serving duty today?
+[NAME=Suohao][SPEAKERSPRITE=Suohao_talk] Heh, our singer is on serving duty today?
 [NAME=Suohao][SPEAKERSPRITE=Suohao_grin] Sucks to suck!!!!

@@ -1,0 +1,7 @@
+[NAME=Songyun][SPEAKERSPRITE=Songyun_smile]Can I ask you something, Lord Yue Yuan?
+[NAME=Yue Yuan][SPEAKERSPRITE=Yue Yuan_eyesopen]Yes?
+[NAME=Songyun][SPEAKERSPRITE=Songyun_smile]Why did you establish this city?
+[NAME=Yue Yuan][SPEAKERSPRITE=Yue Yuan]I simply wanted to see humanity's potential realized.
+[NAME=Yue Yuan][SPEAKERSPRITE=Yue Yuan]Other gods miss the old age. Seeing humans as an inferior new species, they crush their subjects under oppressive rules. Ah, but I assume you know of this already. You come from the north, do you not?
+[NAME=Songyun][SPEAKERSPRITE=Songyun_neutral]Yep. So, you were just curious? Wanted to see what we can do?
+[NAME=Yue Yuan][SPEAKERSPRITE=Yue Yuan]Something like that.

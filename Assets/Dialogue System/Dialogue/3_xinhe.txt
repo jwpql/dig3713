@@ -1,0 +1,8 @@
+[NAME=Xinhe][SPEAKERSPRITE=Xinhe_yay]I still can't believe An Tai and Yue Yuan were here yesterday... My hands were shaking!
+[NAME=Songyun][SPEAKERSPRITE=Songyun_confused]Xinhe, there's, like, two restaurants in this city. We're not that special.
+[NAME=Xinhe][SPEAKERSPRITE=Xinhe_yay]Isn't there another one coming soon? This city will make it big, I just know it!
+[NAME=Songyun][SPEAKERSPRITE=Songyun_whew]As long as they don't ditch us, right?
+[NAME=Xinhe][SPEAKERSPRITE=Xinhe_concern]Surely they wouldn't?
+[NAME=Songyun][SPEAKERSPRITE=Songyun_smileeyesclosed]Haha, I hope not.
+[NAME=Songyun][SPEAKERSPRITE=Songyun_smileeyesclosed](They seemed nice when they came by yesterday...)
+[NAME=Songyun][SPEAKERSPRITE=Songyun_smileeyesclosed](I'd give it... five years)

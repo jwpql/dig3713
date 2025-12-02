@@ -6,6 +6,7 @@ public class Titlescreen : MonoBehaviour
     void Start()
     {
         PlayerPrefs.SetInt("lastLevel", 0);
+        
     }
 
 }

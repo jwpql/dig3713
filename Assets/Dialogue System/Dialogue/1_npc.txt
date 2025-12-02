@@ -1,0 +1,5 @@
+[NAME=Some guy][SPEAKERSPRITE=Some guy]Table for two, please!
+[NAME=Some guy][SPEAKERSPRITE=Some guy] Oh hey, are you that singer girl? I didn't know we could also be served by a beauty like you~
+[NAME=Songyun][SPEAKERSPRITE=Songyun]Oh, I'm just covering for someone~ Nice to see you again, too.
+[NAME=Some girl][SPEAKERSPRITE=Some girl]H-hey, I'm right here?
+[NAME=Songyun][SPEAKERSPRITE=Songyun](...This is the third girl he's brought over this week.)

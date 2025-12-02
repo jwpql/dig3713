@@ -493,7 +493,7 @@ MonoBehaviour:
   tableManager: {fileID: 806946019}
   exclamationBubble: {fileID: 123170806}
   boxCollider: {fileID: 21062521}
-  secUntilEnter: 15
+  secUntilEnter: 20
   after:
   - {fileID: 1906191096}
 --- !u!4 &21062523
@@ -4679,7 +4679,7 @@ MonoBehaviour:
   tableManager: {fileID: 806946019}
   exclamationBubble: {fileID: 1714675015}
   boxCollider: {fileID: 304324996}
-  secUntilEnter: 0
+  secUntilEnter: 5
   after:
   - {fileID: 430341332}
 --- !u!4 &304324998
@@ -6191,14 +6191,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75b8f1309a29e124b8374a1ac80482e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DigitalWorlds.StarterPackage2D.Group
-  one: {fileID: 347274974}
-  two: {fileID: 1908651807}
+  one: {fileID: 1908651807}
+  two: {fileID: 347274974}
   three: {fileID: 0}
   four: {fileID: 0}
   tableManager: {fileID: 806946019}
   exclamationBubble: {fileID: 1814270908}
   boxCollider: {fileID: 430341334}
-  secUntilEnter: 0
+  secUntilEnter: 3
   after: []
 --- !u!4 &430341336
 Transform:
@@ -35348,7 +35348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49aa3e348e5883049a5e126b6cc211f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DigitalWorlds.StarterPackage2D.Person
-  sitSprite: {fileID: -1980405010673504829, guid: 6f6485dc7977db848af1e51070d91767, type: 3}
+  sitSprite: {fileID: 2787784565294993781, guid: f0ca2a35fa1ccc3498dcfa9bbe7642e3, type: 3}
   spriteRenderer: {fileID: 1405639729}
   group: {fileID: 1875121039}
   foodBubble: {fileID: 476017754}
@@ -35450,7 +35450,7 @@ SpriteRenderer:
   m_SortingLayerID: -874246331
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2198515438377844775, guid: 6f6485dc7977db848af1e51070d91767, type: 3}
+  m_Sprite: {fileID: 8169522277288906370, guid: f0ca2a35fa1ccc3498dcfa9bbe7642e3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -35954,8 +35954,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -874246331
-  m_SortingLayer: 2
+  m_SortingLayerID: -1999276141
+  m_SortingLayer: 3
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 357c49b579b88b1428ce37e50ad81d6e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -39199,7 +39199,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -874246331
   m_SortingLayer: 2
-  m_SortingOrder: 2
+  m_SortingOrder: 4593
   m_Sprite: {fileID: 1112411594, guid: 66e302c97aeaca945af294c9a92d7939, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -40383,7 +40383,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -874246331
   m_SortingLayer: 2
-  m_SortingOrder: 3
+  m_SortingOrder: 4593
   m_Sprite: {fileID: 21300000, guid: 8ddc5091786848140a575eb67f1f43d0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -40494,7 +40494,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DigitalWorlds.Dialogue.DialogueTrigger
   dialogueManager: {fileID: 2115657497}
-  textFile: {fileID: 4900000, guid: 815487ecb585eb94cb3232987fc2e580, type: 3}
+  textFile: {fileID: 4900000, guid: cd37adc8b7c33464d98c0267bcc2e014, type: 3}
   tagName: Player
   waitTime: 0.5
   singleUse: 1
@@ -40841,36 +40841,6 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 26
       m_TileSpriteIndex: 28
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 3, y: -2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 32
-      m_TileSpriteIndex: 32
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 6, y: -2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 22
-      m_TileSpriteIndex: 16
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 9, y: -2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 21
-      m_TileSpriteIndex: 15
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -41280,10 +41250,10 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: d8c89631e45497d4e9ff88256be3b531, type: 2}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: bf37220d4c82e514b988c4a2d9af4620, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 22c5b54b51300a048ad3bd24f1740161, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 148e99c69f1dc9d47a1e5629377772f4, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 1892c981443cf07498b7be2b93b0e40f, type: 2}
   - m_RefCount: 2
@@ -41302,7 +41272,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 855d5d9d756c8f144abfb16d4d7ef7b3, type: 2}
   - m_RefCount: 3
     m_Data: {fileID: 11400000, guid: 49b9290404dd3e247b5417b71a50e14e, type: 2}
-  - m_RefCount: 3
+  - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: c3a0fc1239cbe2d4f89e27b798f6a134, type: 2}
   - m_RefCount: 3
     m_Data: {fileID: 11400000, guid: f0ec4a78485742c4592ea51f7ff8abb5, type: 2}
@@ -41347,10 +41317,10 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: 7114565251386069314, guid: d7cc1561251cd4946bd8587e9ffdc961, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 1758429390282714522, guid: d7cc1561251cd4946bd8587e9ffdc961, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 1941159409831208838, guid: 65cfca2e2fe0ce5479d9c53574bea5ac, type: 3}
   - m_RefCount: 1
@@ -41381,7 +41351,7 @@ Tilemap:
     m_Data: {fileID: 5733789232419278736, guid: 65cfca2e2fe0ce5479d9c53574bea5ac, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: 360486324, guid: 65cfca2e2fe0ce5479d9c53574bea5ac, type: 3}
-  - m_RefCount: 3
+  - m_RefCount: 2
     m_Data: {fileID: -1851334034, guid: 65cfca2e2fe0ce5479d9c53574bea5ac, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: -1880924439, guid: 65cfca2e2fe0ce5479d9c53574bea5ac, type: 3}
@@ -41396,7 +41366,7 @@ Tilemap:
   - m_RefCount: 2
     m_Data: {fileID: -1932784629, guid: 65cfca2e2fe0ce5479d9c53574bea5ac, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 60
+  - m_RefCount: 57
     m_Data:
       e00: 1
       e01: 0
@@ -41415,7 +41385,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 60
+  - m_RefCount: 57
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -42141,7 +42111,7 @@ MonoBehaviour:
   tableManager: {fileID: 806946019}
   exclamationBubble: {fileID: 969480235}
   boxCollider: {fileID: 1875121038}
-  secUntilEnter: 6
+  secUntilEnter: 10
   after: []
 --- !u!4 &1875121040
 Transform:
@@ -42400,7 +42370,7 @@ MonoBehaviour:
   tableManager: {fileID: 806946019}
   exclamationBubble: {fileID: 2093764792}
   boxCollider: {fileID: 1906191098}
-  secUntilEnter: 15
+  secUntilEnter: 10
   after: []
 --- !u!4 &1906191100
 Transform:
@@ -43008,7 +42978,7 @@ TilemapRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -874246331
   m_SortingLayer: 2
-  m_SortingOrder: 7
+  m_SortingOrder: 3000
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -43941,6 +43911,36 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 0
       m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 3, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 13
+      m_TileSpriteIndex: 13
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 6, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 11
+      m_TileSpriteIndex: 7
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 9, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 12
+      m_TileSpriteIndex: 11
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -45500,10 +45500,12 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: bb620208688b70e4d8d9752f575a2807, type: 2}
   - m_RefCount: 10
     m_Data: {fileID: 11400000, guid: 3d5b78576f98a3541b8a751313a51991, type: 2}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 148e99c69f1dc9d47a1e5629377772f4, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 22c5b54b51300a048ad3bd24f1740161, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: c3a0fc1239cbe2d4f89e27b798f6a134, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 17
     m_Data: {fileID: -573581240, guid: 51b35ae35c8a6b64fa27c1cd35a6efcf, type: 3}
@@ -45519,20 +45521,22 @@ Tilemap:
     m_Data: {fileID: 1456798018, guid: 51b35ae35c8a6b64fa27c1cd35a6efcf, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 310435197, guid: 51b35ae35c8a6b64fa27c1cd35a6efcf, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 1758429390282714522, guid: d7cc1561251cd4946bd8587e9ffdc961, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: -1168749809, guid: 51b35ae35c8a6b64fa27c1cd35a6efcf, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: -814263961, guid: 51b35ae35c8a6b64fa27c1cd35a6efcf, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 645400666, guid: 51b35ae35c8a6b64fa27c1cd35a6efcf, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 7114565251386069314, guid: d7cc1561251cd4946bd8587e9ffdc961, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -7331919482281829549, guid: afa40ddb807984e4bb020366caf75352, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -1851334034, guid: 65cfca2e2fe0ce5479d9c53574bea5ac, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 245
+  - m_RefCount: 248
     m_Data:
       e00: 1
       e01: 0
@@ -45551,7 +45555,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 245
+  - m_RefCount: 248
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -45644,7 +45648,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -874246331
   m_SortingLayer: 2
-  m_SortingOrder: -1
+  m_SortingOrder: -1333
   m_Sprite: {fileID: -549762700450039806, guid: b1f14e41c5fe72d40b476bc14a8e85bd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -45777,7 +45781,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DigitalWorlds.Dialogue.DialogueTrigger
   dialogueManager: {fileID: 2115657497}
-  textFile: {fileID: 4900000, guid: 815487ecb585eb94cb3232987fc2e580, type: 3}
+  textFile: {fileID: 4900000, guid: d5e604a2bf1078f4a9b65b9ce876fa5b, type: 3}
   tagName: Player
   waitTime: 0.5
   singleUse: 1

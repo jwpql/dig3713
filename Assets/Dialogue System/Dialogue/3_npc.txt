@@ -1,0 +1,7 @@
+[NAME=???][SPEAKERSPRITE=Some guy]W-what do you mean you're leaving?!? What about little Hong?!
+[NAME=Some guy][SPEAKERSPRITE=Some guy]You don't understand. You never do! That's why you're only holding me back.
+[NAME=???][SPEAKERSPRITE=Some guy]WE HAVE A CHILD.
+[NAME=Some guy][SPEAKERSPRITE=Some guy]You have your parents, don't you? Besides, I never wanted to settle!
+[NAME=Songyun][SPEAKERSPRITE=Songyun_smileeyesclosed]Here's your order!
+[NAME=???][SPEAKERSPRITE=Some guy]I AM GOING TO CHAIN YOU TO THE HOUSE.
+[NAME=Songyun][SPEAKERSPRITE=Songyun_neutral](Aw, they remind me of my parents.)

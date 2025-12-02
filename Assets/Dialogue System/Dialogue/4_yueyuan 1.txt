@@ -1,0 +1,4 @@
+[NAME=Songyun][SPEAKERSPRITE=Songyun]Good to see you again, Yue Yuan! Are you alone this time?
+[NAME=Yue Yuan][SPEAKERSPRITE=Yue Yuan_eyesopen]Yes. An Tai is busy. This, too, is only a brief respite for me.
+[NAME=Songyun][SPEAKERSPRITE=Songyun_smileeyesclosed]You like this place?
+[NAME=Yue Yuan][SPEAKERSPRITE=Yue Yuan]The birdsong is quite soothing. Also, there is only one restaurant in the city.

@@ -1,0 +1,10 @@
+[NAME=Zihua][SPEAKERSPRITE=Zihua]When I first met you, you were so kind. You weren't like my other friends. You seemed genuinely interested in what I had to say.
+[NAME=Zihua][SPEAKERSPRITE=Zihua_eyesclosed]But after we got together... you would always yell at me. You never smiled at me. Never served me a cup of tea that wasn't horribly bitter. What changed?
+[NAME=Songyun][SPEAKERSPRITE=Songyun_contemplate]I was testing you.
+[NAME=Zihua][SPEAKERSPRITE=Zihua_talk]For what??
+[NAME=Songyun][SPEAKERSPRITE=Songyun_contemplate]To be willing to stay with me. All love fades eventually, and humans are terrible at pretending. Can't have you bailing out halfway through.
+[NAME=Zihua][SPEAKERSPRITE=Zihua_eyesclosed]But in the end, all you did was doom us from the start.
+[NAME=Songyun][SPEAKERSPRITE=Songyun_contemplate]...
+[NAME=Zihua][SPEAKERSPRITE=Zihua]I'm sorry we caused a scene here last week. That's why you're stuck on waitress duty, right?
+[NAME=Zihua][SPEAKERSPRITE=Zihua_eyesclosed]I hope you get better. Thanks for the tea. 
+[NAME=Songyun][SPEAKERSPRITE=Songyun_contemplate]...I'm sorry, too.

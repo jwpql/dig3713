@@ -1,6 +1,7 @@
 [NAME=Xinhe][SPEAKERSPRITE=Xinhe]So, how was your first day as a waitress?
-[NAME=Songyun][SPEAKERSPRITE=Songyun_smileeyesclosed]Eh, I've had worse. I had to work waaay more at my old job.
-[NAME=Xinhe][SPEAKERSPRITE=Xinhe]Oh? What were you doing?
-[NAME=Songyun][SPEAKERSPRITE=Songyun]Oh, you know. Just performing alone in rich people's hovels.
-[NAME=Xinhe][SPEAKERSPRITE=Xinhe_concern]Weren't your parents worried? 
-[NAME=Songyun][SPEAKERSPRITE=Songyun_smileeyesclosed]Nah, they were just glad I was out of their hair.
+[NAME=Songyun][SPEAKERSPRITE=Songyun_smileeyesclosed]Honestly, not bad. Really brings back memories.
+[NAME=Xinhe][SPEAKERSPRITE=Xinhe_smile]Ah. You are also from the north, no?
+[NAME=Songyun][SPEAKERSPRITE=Songyun]Yep! I was trained under Madam Cui, if you've heard of her.
+[NAME=Xinhe][SPEAKERSPRITE=Xinhe]Hm... she was a famous courtesan, right? 
+[NAME=Songyun][SPEAKERSPRITE=Songyun_smileeyesclosed]Yep! She just runs a restaurant, now, though.
+[NAME=Xinhe][SPEAKERSPRITE=Xinhe_smile]I see. As for me, I was taught by the ladies of the Zhong family, so I've never had to do anything like that.

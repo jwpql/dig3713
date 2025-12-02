@@ -6,6 +6,8 @@ public class LvlEnd : MonoBehaviour
     public TMP_Text title;
     public TMP_Text profit;
     public TMP_Text guests;
+    public TMP_Text tip;
+    public string[] tips;
 
     void Start()
     {
@@ -17,6 +19,11 @@ public class LvlEnd : MonoBehaviour
         guests.SetText(guest.ToString());
         PlayerPrefs.SetInt("profit", 0);
         PlayerPrefs.SetInt("guests", 0);
+
+        if(lvl <= tips.Length && lvl > -1)
+        {
+            tip.SetText(tips[lvl - 1]);
+        }
     }
 
 

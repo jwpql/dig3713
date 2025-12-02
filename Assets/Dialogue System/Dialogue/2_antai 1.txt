@@ -1,6 +1,6 @@
 [NAME=???][SPEAKERSPRITE=An Tai_yay]So they have these little things called "teahouses!" I love how dedicated humans are to hot leaf water!
 [NAME=???][SPEAKERSPRITE=Yue Yuan]I see. An herbal aroma indeed permeates the air.
 [NAME=Songyun][SPEAKERSPRITE=Songyun_smile](Wait, they look familiar...)
-[NAME=Songyun][SPEAKERSPRITE=Songyun_surprise] (An Tai and Yue Yuan?!?! ON THE DAY I'M STUCK WAITING TABLES??)
-[NAME=Songyun][SPEAKERSPRITE=Songyun]Humbled to see Lord An Tai and Yue Yuan here! Table for two?
-[NAME=???][SPEAKERSPRITE=An Tai_yay]Yep! Thanks!
+[NAME=Songyun][SPEAKERSPRITE=Songyun_surprise] (An Tai and Yue Yuan?!?!)
+[NAME=Songyun][SPEAKERSPRITE=Songyun]Humbled to see you two here! May I get you a table?
+[NAME=An Tai][SPEAKERSPRITE=An Tai_yay]Yep! Thanks!
